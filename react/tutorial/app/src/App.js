@@ -1,17 +1,11 @@
 // Import Components
-import Header from "./components/Header";
-
-const greeting = (name) => {
-  return `Hello ${name}`;
-};
-const isLoggedIn = true;
+import User from "./components/User";
 
 function App() {
   return (
     // Use fragment to create parent without creating element.
     <>
-      <Header />
-      <h2>{isLoggedIn ? greeting("Erhan") : "Please log in."}</h2>
+      <User name="Erhan" age={24} field="Front-end" devTeam={true} />
     </>
   );
 }
