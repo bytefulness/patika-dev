@@ -1,8 +1,8 @@
 // Import Components
-import Inputs from "./4-states/inputs";
+import UseEffect from "./5-lifecycle/UseEffect";
 
 function App() {
-  return <Inputs />;
+  return <UseEffect />;
 }
 
 export default App;
