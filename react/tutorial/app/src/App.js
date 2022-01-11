@@ -1,8 +1,8 @@
 // Import Components
-import BasicCounter from "./4-states/basic-counter";
+import Inputs from "./4-states/inputs";
 
 function App() {
-  return <BasicCounter />;
+  return <Inputs />;
 }
 
 export default App;
