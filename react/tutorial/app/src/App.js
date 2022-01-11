@@ -1,8 +1,8 @@
 // Import Components
-import ArrayState from "./4-states/array-state";
+import BasicCounter from "./4-states/basic-counter";
 
 function App() {
-  return <ArrayState />;
+  return <BasicCounter />;
 }
 
 export default App;
