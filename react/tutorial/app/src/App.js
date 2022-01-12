@@ -1,8 +1,8 @@
 // Import Components
-import UseEffect from "./5-lifecycle/UseEffect";
+import ModuleCSS from "./7-module-css";
 
 function App() {
-  return <UseEffect />;
+  return <ModuleCSS />;
 }
 
 export default App;
