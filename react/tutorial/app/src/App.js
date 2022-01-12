@@ -1,8 +1,15 @@
 // Import Components
-import ModuleCSS from "./7-module-css";
+import FetchingAxios from "./8-fetching/fetching-axios";
+
+// Import Styles
+import "./App.css";
 
 function App() {
-  return <ModuleCSS />;
+  return (
+    <div className="App">
+      <FetchingAxios />
+    </div>
+  );
 }
 
 export default App;
