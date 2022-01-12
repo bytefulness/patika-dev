@@ -1,0 +1,32 @@
+.filter-input {
+  margin-bottom: 1rem;
+}
+
+.list-item {
+  width: 70%;
+  margin-inline: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  background-color: rgb(255, 255, 255);
+  font-size: 1.125rem;
+  padding: 1rem 2rem;
+  border-radius: 0.75rem;
+  margin-bottom: 1rem;
+  box-shadow: 0 3px 5px rgba(0, 0, 0, 0.05);
+  transition: background-color 0.25s ease-in-out;
+  cursor: pointer;
+}
+
+@media (min-width: 640px) {
+  .list-item {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}
+
+.list-item:hover {
+  background-color: rgb(26, 108, 250);
+  color: #fff;
+}

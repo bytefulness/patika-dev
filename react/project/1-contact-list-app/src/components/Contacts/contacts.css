@@ -1,0 +1,41 @@
+#contacts {
+  width: 100%;
+  background-color: rgb(246, 250, 255);
+  text-align: center;
+  padding: 6rem 2rem;
+  border-radius: 2rem;
+}
+
+#contacts .input-group {
+  margin-bottom: 1rem;
+}
+
+#contacts label {
+  display: block;
+  font-size: 1.25rem;
+  margin-bottom: 0.5rem;
+}
+
+#contacts input {
+  width: 80%;
+  font-size: 1rem;
+  padding: 1rem;
+  border-radius: 1rem;
+  border: 1px solid rgb(186, 210, 255);
+}
+
+#contacts button {
+  background-color: rgb(0, 89, 255);
+  font-size: 1rem;
+  font-weight: bold;
+  color: #fff;
+  padding: 1rem 3rem;
+  border: 0;
+  border-radius: 0.75rem;
+  cursor: pointer;
+  transition: background-color 0.25s ease-in-out;
+}
+
+#contacts button:hover {
+  background-color: rgb(4, 81, 224);
+}
