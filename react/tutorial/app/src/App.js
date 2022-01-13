@@ -1,5 +1,5 @@
 // Import Components
-import FetchingAxios from "./8-fetching/fetching-axios";
+import RouterPage from "./9-RouterPage";
 
 // Import Styles
 import "./App.css";
@@ -7,7 +7,7 @@ import "./App.css";
 function App() {
   return (
     <div className="App">
-      <FetchingAxios />
+      <RouterPage />
     </div>
   );
 }
